@@ -1,4 +1,19 @@
-# Getting Started with Create React App
+# GDC Graphql visulization using Graphql Voyager
+### What is Graphql Voyager?
+Represent any GraphQL API as an interactive graph.
+More info here: https://github.com/APIs-guru/graphql-voyager
+
+## How to use
+1. After cloning the repo, run `npm install`
+2. Run `npm start`. If anything running on port 3000, it will ask to use different port and will show that in output.
+3. The page will look like this screenshot. By default `Mutation` is loaded to make it fast as `Root` is taking ~2-3 mins to load. It can be changed to load different type from `src/index.js` by changing `rootType`.
+4. Enjoy! 
+
+<img width="1266" alt="Screen Shot 2021-03-17 at 10 23 31 AM" src="https://user-images.githubusercontent.com/8594167/111492655-d9e4b800-870a-11eb-8944-f089e6a13e92.png">
+
+
+
+## Built with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -44,26 +59,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
